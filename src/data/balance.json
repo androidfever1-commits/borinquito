@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "economy": {
+    "startingMoney": 5000,
+    "startingPopulation": 0,
+    "taxRatePercent": 10,
+    "dayLengthSeconds": 60,
+    "maxDebt": -2000
+  },
+  "buildings": {
+    "casita":     { "name": "Casita",          "cost": 100,  "upkeep": 1,  "population": 4,  "jobs": 0,  "happiness": 0,  "size": 1 },
+    "colmado":    { "name": "Colmado",         "cost": 250,  "upkeep": 3,  "population": 0,  "jobs": 3,  "happiness": 2,  "income": 6,  "size": 1 },
+    "panaderia":  { "name": "Panadería",       "cost": 300,  "upkeep": 3,  "population": 0,  "jobs": 4,  "happiness": 3,  "income": 7,  "size": 1 },
+    "kiosko":     { "name": "Kiosko de Playa", "cost": 400,  "upkeep": 4,  "population": 0,  "jobs": 3,  "happiness": 4,  "income": 9,  "size": 1, "requires": "sand" },
+    "cafetal":    { "name": "Cafetal",         "cost": 600,  "upkeep": 5,  "population": 0,  "jobs": 8,  "happiness": 1,  "income": 15, "size": 2, "requires": "mountain" },
+    "plaza":      { "name": "Plaza",           "cost": 800,  "upkeep": 8,  "population": 0,  "jobs": 2,  "happiness": 10, "size": 2 },
+    "escuela":    { "name": "Escuela",         "cost": 1200, "upkeep": 12, "population": 0,  "jobs": 10, "happiness": 6,  "size": 2 },
+    "faro":       { "name": "Faro",            "cost": 1500, "upkeep": 6,  "population": 0,  "jobs": 2,  "happiness": 5,  "size": 1, "requires": "coast" },
+    "carretera":  { "name": "Carretera",       "cost": 10,   "upkeep": 0,  "population": 0,  "jobs": 0,  "happiness": 0,  "size": 1 }
+  },
+  "map": {
+    "width": 72,
+    "height": 36,
+    "seed": 1493,
+    "tileWidth": 64,
+    "tileHeight": 32,
+    "seaLevel": 0.28,
+    "sandLevel": 0.34,
+    "forestLevel": 0.6,
+    "mountainLevel": 0.8
+  },
+  "camera": {
+    "minZoom": 0.15,
+    "maxZoom": 3,
+    "startZoom": 0.5,
+    "doubleTapZoom": 2,
+    "doubleTapMs": 300,
+    "doubleTapMaxDistancePx": 30,
+    "doubleTapAnimSeconds": 0.45,
+    "friction": 0.95
+  },
+  "colors": {
+    "deepWater": "#0b6fa4",
+    "water":     "#1b8fc4",
+    "sand":      "#f2d98b",
+    "grass":     "#6cc04a",
+    "forest":    "#2f8a3a",
+    "mountain":  "#7a6a55",
+    "peak":      "#a89a86"
+  }
+}

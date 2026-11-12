@@ -1,0 +1,22 @@
+{
+  "name": "borinquito",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "gsap": "^3.15.1",
+    "howler": "^2.2.4",
+    "pixi-viewport": "^7.0.2",
+    "pixi.js": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.13",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
